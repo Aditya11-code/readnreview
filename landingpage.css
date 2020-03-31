@@ -757,7 +757,7 @@ body{
   }
   .subscribe{
     margin-top: 50px;
-    height: 120vh;
+    height: 105vh;
   }
   .fa-angle-double-down{
     margin-top: 0;
@@ -807,5 +807,10 @@ body{
       height: 80%;
       width: 80%;
     }
+  }
+}
+@media only screen and(max-width:350px){
+   .subscribe{
+     height:125vh;
   }
 }
