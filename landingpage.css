@@ -9,6 +9,7 @@
 body{
   background-color: #fff;
 }
+
 .landing-container{
   background-image: url(introbgimg.png);
   background-repeat: no-repeat;
@@ -44,6 +45,7 @@ body{
   position:absolute;
   top: 33%;
   left: 120px;
+  margin-right: 50%;
 }
 .landingpage-intro > p{
   line-height: 2.4rem;
@@ -194,7 +196,7 @@ body{
 }
 
 .service{
-  margin:30px;
+  margin:40px;
   overflow:hidden;
   padding:15px 10px;
   position: relative;
@@ -295,7 +297,7 @@ body{
 }
 .fa-angle-double-down{
   font-size: 50px;
-  margin-top: 90px;
+  margin-top: 80px;
   padding-bottom: 20px;
   animation: mover 0.5s infinite alternate;
 }
@@ -360,11 +362,10 @@ body{
 .form-control{
   border-radius: 2%;
 }
-.footer-hr{
-  margin-top: 50px;
+.footer > .container{
+  margin-top: 20%;
 }
 .footer-social-icons{
-  position: absolute;
   width: 100%;
   text-align: center;
 }
@@ -451,17 +452,18 @@ body{
     top: 10%;
   }
 }
-@media only screen and (max-width:758px){
+@media only screen and (max-width:1007px) and (min-width:768px){
     .landing-container{
-      background-image: none;
+      background-image: url(small-screen.jpg);
+      background-position: center;
+      height: 90vh;
     }
     .fa-bars{
-      font-size: 25px;
+      font-size:30px;
       margin-right: 5%;
       margin-top: 5%;
     }
     .brand{
-      font-size: 25px;
       margin-left: 5%;
       margin-top: 3%;
     }
@@ -469,21 +471,27 @@ body{
       height: 60px;
     }
     .landingpage-intro{
-      top: 22%;
-      left: 30px;
-      font-size: 25px;
+      margin-right: 0;
+      text-align: center;
+      top: 25%;
+      left: 10%;
+      right: 10%;
     }
     .landingpage-intro > h2{
-      font-size: 1.6rem;
+      font-size: 2rem;
     }
     .landingpage-intro > p{
-      line-height: 2rem;
-      font-size: 20px;
+      padding-top: 30px;
+      line-height: 2.2rem;
+      font-size: 1.6rem;
+      color: black;
     }
     .landingpage-intro > button{
       margin-left: 7%;
-      margin-top: 100px;
+      margin-top: 10%;
       height: 50px;
+      width: 170px;
+      font-size: 15px;
     }
     .zoom-nav-list a{
       text-decoration: none;
@@ -491,11 +499,21 @@ body{
       color: white;
     }
     .service{
-      margin: 10px;
+      margin: 30px;
+      margin-right: 75px;
     }
     .service-container > h1{
-      margin-top: 10px;
-      font-size: 40px;
+      padding-bottom: 20px;
+      font-size: 2.5rem;
+    }
+    .service > .title{
+      font-size: 1.4rem;
+    }
+    .service > .description{
+      font-size: 1rem;
+    }
+    #latest-blog{
+      margin-top:100px;
     }
     .latest-blog-heading{
       font-size: 1.7rem;
@@ -503,21 +521,21 @@ body{
     .latest-blog-text{
         font-size: 1.5rem;
     }
-    .stylish-social-icons{
-      height: 60px;
-      width: 60px;
-      margin-top: 200px;
-    }
-    .last-content{
-      margin-top: 30px;
-      font-size: 15px;
-    }
     .subscribe{
-      height: 100vh;
+      margin-top: 100px;
+      height: 50vh;
+    }
+    .register-left > p{
+      margin-top: 0;
+      font-size: 1rem;
     }
     .fa-angle-double-down{
-      margin-top: 30px;
+      margin-top: 0;
+      font-size: 32px;
       padding-bottom: 15px;
+    }
+    .register-left > h2{
+      font-size: 1.5rem;
     }
     .fa-newspaper{
       padding-bottom: 15px;
@@ -530,10 +548,266 @@ body{
     .register-right > h1{
       font-size: 35px;
     }
+    .footer > .container{
+      margin-top: 20%;
+    }
+    .stylish-social-icons{
+      height: 50px;
+      width: 50px;
+      margin-top: 30px;
+    }
+    .stylish-social-icons > i{
+      line-height: 50px;
+      font-size: 20px;
+    }
+    .last-content{
+      margin-top: 30px;
+      font-size: 15px;
+    }
     @keyframes grow {
       100%{
         height: 80%;
         width: 80%;
       }
     }
+}
+@media only screen and (max-width:767px){
+    .landing-container{
+      background-image: url(small-screen.jpg);
+      background-position: center;
+      height: 85vh;
+    }
+    .fa-bars{
+      font-size: 25px;
+      margin-right: 5%;
+      margin-top: 5%;
+    }
+    .brand{
+      margin-left: 5%;
+      margin-top: 3%;
+    }
+    .brand-img{
+      height: 60px;
+    }
+    .landingpage-intro{
+      margin-right: 0;
+      text-align: center;
+      top: 25%;
+      left: 10%;
+      right: 10%;
+    }
+    .landingpage-intro > h2{
+      font-size: 1.5rem;
+    }
+    .landingpage-intro > p{
+      padding-top: 30px;
+      line-height: 2.2rem;
+      font-size: 1.2rem;
+      color: black;
+    }
+    .landingpage-intro > button{
+      font-size: 12px;
+      margin-top: 20px;
+      height: 45px;
+    }
+    .zoom-nav-list a{
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+    }
+    .service{
+      margin: 12.5px;
+    }
+    .service-container > h1{
+      padding-bottom: 20px;
+      font-size: 1.6rem;
+    }
+    .service > .title{
+      font-size: 1.1rem;
+    }
+    .service > .description{
+      font-size: 1rem;
+    }
+    #latest-blog{
+      margin-top: 50px;
+    }
+    .latest-blog-heading{
+      font-size: 1.6rem;
+    }
+    .latest-blog-text{
+        font-size: 1.2rem;
+    }
+    .subscribe{
+      margin-top: 50px;
+      height: 100vh;
+    }
+    .fa-angle-double-down{
+      margin-top: 0;
+      font-size: 32px;
+      padding-bottom: 15px;
+    }
+    .register-left > p{
+      margin-top: 0;
+      font-size: 1rem;
+    }
+    .register-left > h2{
+      font-size: 1.5rem;
+    }
+    .fa-newspaper{
+      padding-bottom: 10px;
+    }
+    .register-right{
+      width: 95%;
+      height: 280px;
+      margin-top: 10px;
+    }
+    .register-right > h1{
+      font-size: 1.8rem;
+    }
+    .form-group > input{
+      height: 27px;
+    }
+    .subscribe-button{
+      height: 45px;
+    }
+    .stylish-social-icons{
+      height: 50px;
+      width: 50px;
+      margin-top:30px;
+    }
+    .stylish-social-icons > i{
+      line-height: 50px;
+      font-size: 20px;
+    }
+    .last-content{
+      margin-top: 10px;
+      font-size: 15px;
+    }
+
+    @keyframes grow {
+      100%{
+        height: 80%;
+        width: 80%;
+      }
+    }
+}
+@media only screen and (max-width:500px){
+  .landing-container{
+    background-image:url(small-screen.jpg);
+    background-position: center;
+    height: 85vh;
+  }
+  .fa-bars{
+    font-size: 25px;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+  .brand{
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+  .brand-img{
+    height: 50px;
+  }
+  .landingpage-intro{
+    margin-right: 0;
+    text-align: center;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+  }
+  .landingpage-intro > h2{
+    font-size: 1.2rem;
+  }
+  .landingpage-intro > p{
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: black;
+  }
+  .landingpage-intro > button{
+    font-size: 10px;
+    margin-top: 20px;
+    height: 45px;
+  }
+  .zoom-nav-list a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+  }
+  .service > i{
+    font-size: 30px;
+  }
+  .service-container > h1{
+    padding-bottom: 20px;
+    font-size: 1.6rem;
+  }
+  .service > .title{
+    font-size: 1.4rem;
+  }
+  .service > .description{
+    font-size: 1rem;
+  }
+  #latest-blog{
+    margin-top: 50px;
+  }
+  .latest-blog-heading{
+    font-size: 1.6rem;
+  }
+  .latest-blog-text{
+      font-size: 1rem;
+  }
+  .subscribe{
+    margin-top: 50px;
+    height: 100vh;
+  }
+  .fa-angle-double-down{
+    margin-top: 0;
+    font-size: 32px;
+    padding-bottom: 15px;
+  }
+  .register-left > p{
+    margin-top: 0;
+    font-size: 1rem;
+  }
+  .register-left > h2{
+    font-size: 1.5rem;
+  }
+  .fa-newspaper{
+    padding-bottom: 10px;
+  }
+  .register-right{
+    width: 95%;
+    height: 280px;
+    margin-top: 10px;
+  }
+  .register-right > h1{
+    font-size: 1.8rem;
+  }
+  .form-group > input{
+    height: 27px;
+  }
+  .subscribe-button{
+    height: 45px;
+  }
+  .stylish-social-icons{
+    height: 50px;
+    width: 50px;
+    margin-top:30px;
+  }
+  .stylish-social-icons > i{
+    line-height: 50px;
+    font-size: 20px;
+  }
+  .last-content{
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  @keyframes grow {
+    100%{
+      height: 80%;
+      width: 80%;
+    }
+  }
 }
