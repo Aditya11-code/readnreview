@@ -293,7 +293,7 @@ body{
 }
 .subscribe{
   background-color:#fff;
-  height: 80vh;
+  height: 50vh;
 }
 .fa-angle-double-down{
   font-size: 50px;
@@ -523,7 +523,7 @@ body{
     }
     .subscribe{
       margin-top: 100px;
-      height: 50vh;
+      height: 40vh;
     }
     .register-left > p{
       margin-top: 0;
@@ -548,9 +548,7 @@ body{
     .register-right > h1{
       font-size: 35px;
     }
-    .footer > .container{
-      margin-top: 20%;
-    }
+
     .stylish-social-icons{
       height: 50px;
       width: 50px;
@@ -759,7 +757,7 @@ body{
   }
   .subscribe{
     margin-top: 50px;
-    height: 100vh;
+    height: 120vh;
   }
   .fa-angle-double-down{
     margin-top: 0;
