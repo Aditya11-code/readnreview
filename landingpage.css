@@ -729,7 +729,7 @@ body{
      height: 40px;
    }
    .footer > .container{
-     margin-top: 220%;
+     margin-top: 180%;
    }
    .stylish-social-icons{
      height: 35px;
@@ -749,4 +749,7 @@ body{
   .landing-container{
     height: 70vh;
   }
+  .footer > .container{
+     margin-top: 190%;
+   }
 }
