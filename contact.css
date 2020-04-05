@@ -119,11 +119,12 @@
   color: #3498db;
   transition: transform 0.3s ease-in;
 }
-.contact-container{
+.contact-footer-container{
   background-image: url(bgcontact.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+}
+.form-container{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,7 +133,7 @@
   color: white;
 }
 .contact-div{
-
+  margin-top: 40px;
   filter: blur(0.4px);
   width: 430px;
   height: 500px;
@@ -167,6 +168,7 @@
 }
 textarea{
   width: 100%;
+  max-height: 50px;
 }
 .field input , textarea{
   border: none;
@@ -202,7 +204,9 @@ textarea{
 .submit-button:active{
   background: radial-gradient(#1da88a,#1ea084,#229c82,#23947b,#238d76);
 }
-
+footer .container{
+  margin-top: 80px;
+}
 .footer-social-icons{
   width: 100%;
   text-align: center;
