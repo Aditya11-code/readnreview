@@ -93,6 +93,7 @@ body{
   background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
   animation: 1s grow ease forwards;
   border: 3px solid white;
+  z-index:9;
 }
 .zoom-nav-list{
   list-style: none;
@@ -499,4 +500,265 @@ body{
     .service-container > h1{
       padding-bottom: 20px;
       font-size: 2.5rem;
+      }
+    .service > .title{
+      font-size: 1.4rem;
+    }
+    .service > .description{
+      font-size: 1rem;
+    }
+    #latest-blog{
+      margin-top:100px;
+    }
+    .latest-blog-heading{
+      font-size: 1.7rem;
+    }
+    .latest-blog-text{
+        font-size: 1.5rem;
+    }
+    .subscribe{
+      margin-top: 100px;
+      height: 40vh;
+    }
+    .register-left > p{
+      margin-top: 0;
+      font-size: 1rem;
+    }
+    .fa-angle-double-down{
+      margin-top: 0;
+      font-size: 32px;
+      padding-bottom: 15px;
+    }
+    .register-left > h2{
+      font-size: 1.5rem;
+    }
+    .fa-newspaper{
+      padding-bottom: 15px;
+    }
+    .register-right{
+      width: 95%;
+      height: 320px;
+      margin-top: 20px;
+    }
+    .register-right > h1{
+      font-size: 35px;
+    }
+
+    .stylish-social-icons{
+      height: 50px;
+      width: 50px;
+      margin-top: 30px;
+    }
+    .stylish-social-icons > i{
+      line-height: 50px;
+      font-size: 20px;
+    }
+    .last-content{
+      margin-top: 30px;
+      font-size: 15px;
+    }
+    @keyframes grow {
+      100%{
+        height: 80%;
+        width: 80%;
+      }
+    }
+}
+@media only screen and (max-width:767px){
+    .landing-container{
+      background-image: url(small-screen.jpg);
+      background-position: center;
+      height: 85vh;
+    }
+    .fa-bars{
+      font-size: 25px;
+      margin-right: 5%;
+      margin-top: 5%;
+    }
+    .brand{
+      margin-left: 5%;
+      margin-top: 3%;
+    }
+    .brand-img{
+      height: 60px;
+    }
+    .landingpage-intro{
+      margin-right: 0;
+      text-align: center;
+      top: 25%;
+      left: 10%;
+      right: 10%;
+    }
+    .landingpage-intro > h2{
+      font-size: 1.5rem;
+    }
+    .landingpage-intro > p{
+      padding-top: 30px;
+      line-height: 2.2rem;
+      font-size: 1.2rem;
+      color: black;
+    }
+    .landingpage-intro > button{
+      margin-left: 5%;
+      font-size: 12px;
+      margin-top: 20px;
+      height: 45px;
+    }
+    .zoom-nav-list a{
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+    }
+    .service{
+      margin: 12.5px;
+    }
+    .service-container > h1{
+      padding-bottom: 20px;
+      font-size: 1.6rem;
+    }
+    .service > .title{
+      font-size: 1.1rem;
+    }
+    .service > .description{
+      font-size: 1rem;
+    }
+    #latest-blog{
+      margin-top: 50px;
+    }
+    .latest-blog-heading{
+      font-size: 1.6rem;
+    }
+    .latest-blog-text{
+        font-size: 1.2rem;
+    }
+    .subscribe{
+      margin-top: 50px;
+      height: 100vh;
+    }
+    .fa-angle-double-down{
+      margin-top: 0;
+      font-size: 32px;
+      padding-bottom: 15px;
+    }
+    .register-left > p{
+      margin-top: 0;
+      font-size: 1rem;
+    }
+    .register-left > h2{
+      font-size: 1.5rem;
+    }
+    .fa-newspaper{
+      padding-bottom: 10px;
+    }
+    .register-right{
+      width: 95%;
+      height: 280px;
+      margin-top: 10px;
+    }
+    .register-right > h1{
+      font-size: 1.8rem;
+    }
+    .form-group > input{
+      height: 27px;
+    }
+    .subscribe-button{
+      height: 45px;
+    }
+    .stylish-social-icons{
+      height: 50px;
+      width: 50px;
+      margin-top:30px;
+    }
+    .stylish-social-icons > i{
+      line-height: 50px;
+      font-size: 20px;
+    }
+    .last-content{
+      margin-top: 10px;
+      font-size: 15px;
+    }
+
+    @keyframes grow {
+      100%{
+        height: 80%;
+        width: 80%;
+      }
+    }
+}
+
+@media only screen and (max-width:500px){
+  .landing-container{
+    height: 60vh;
+  }
+   .fa-bars{
+     font-size: 22px;
+   }
+   .brand-img{
+     height: 44px;
+     margin-top: -20%;
+   }
+   .landingpage-intro{
+     left: 20px;
+     margin-right: 0;
+     top: 18%;
+     padding-top: 0px;
+   }
+   .landingpage-intro > h2{
+     font-size: 1.1rem;
+   }
+   .landingpage-intro > p{
+     line-height: 1.6rem;
+     font-weight: bold;
+   }
+   .landingpage-intro > button{
+     margin-left: 0%;
+     font-size: 12px;
+     margin-top: 10px;
+     height: 35px;
+     width: 38%;
+   }
+   .register-right > h1{
+     font-size: 1.6rem;
+   }
+   .form-group > input{
+     height: 25px;
+   }
+   .subscribe{
+     height: 0vh;
+   }
+   .subscribe-button{
+     font-size: 13px;
+     height: 40px;
+   }
+   .footer > .container{
+     margin-top: 180%;
+   }
+   .stylish-social-icons{
+     height: 35px;
+     width: 35px;
+     margin-top:30px;
+   }
+   .stylish-social-icons > i{
+     line-height: 35px;
+     font-size: 20px;
+   }
+   .last-content{
+     margin-top:8px;
+     font-size: 12px;
+   }
+}
+@media only screen and (max-width:360px) {
+  .landing-container{
+    height: 70vh;
+  }
+  .footer > .container{
+     margin-top: 220%;
+   }
+   .stylish-social-icons{
+     height: 35px;
+     width: 35px;
+     margin-top:15px;
+   }
+}
+
   
