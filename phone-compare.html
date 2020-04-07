@@ -67,6 +67,162 @@
        </div>
      </div>
 
+     <div class="search-box-1" id="search-box-1">
+       <input class="search-text" type="text" name="" placeholder="Type To Search">
+       <a href="#" class="search-button">
+         <i class="fas fa-search"></i>
+       </a>
+     </div>
+
+     <div class="search-box-2" id="search-box-2">
+       <input class="search-text" type="text" name="" placeholder="Type To Search">
+       <a href="#" class="search-button">
+         <i class="fas fa-search"></i>
+       </a>
+     </div>
+
+     <div class="search-box-3" id="search-box-3">
+       <input class="search-text" type="text" name="" placeholder="Type To Search">
+       <a href="#" class="search-button">
+         <i class="fas fa-search"></i>
+       </a>
+     </div>
+     <div class="table-search-container">
+       <table>
+         <tr>
+           <th>Smartphone Name</th>
+           <th id="search-box-1">Smartphone Name 1</th>
+           <th id="search-box-2"> Smartphone Name 2</th>
+           <th id="search-box-3"> Smartphone Name 3</th>
+         </tr>
+         <tr>
+           <th>Price</th>
+           <th>Amazon - ***** <br> flipkart-*****</th>
+           <th>Amazon - ***** <br> flipkart-*****</th>
+           <th>Amazon - ***** <br> flipkart-*****</th>
+         </tr>
+       </table>
+      </div>
+      <button class="accordion">Display</button>
+      <div class="panel">
+        <table  class="acc-table">
+          <tr>
+            <th class="th-col">Screen size</th>
+            <td> 123456678 </td>
+            <td> 123456789 </td>
+            <td> 1234567890 </td>
+          </tr>
+          <tr>
+            <th class="th-col">Resolution</th>
+            <td> 123456678 </td>
+            <td> 123456789 </td>
+            <td> 1234567890 </td>
+          </tr>
+          <tr>
+            <th class="th-col">Display Type</th>
+            <td> 123456678 </td>
+            <td> 123456789 </td>
+            <td> 1234567890 </td>
+          </tr>
+          <tr>
+            <th class="th-col">Aspect Ratio</th>
+            <td> 123456678 </td>
+            <td> 123456789 </td>
+            <td> 1234567890 </td>
+          </tr>
+          <tr>
+            <th class="th-col">Touch-Screen Type</th>
+            <td> 123456678 </td>
+            <td> 123456789 </td>
+            <td> 1234567890 </td>
+          </tr>
+          <tr>
+            <th class="th-col">Protection</th>
+            <td> 123456678 </td>
+            <td> 123456789 </td>
+            <td> 1234567890 </td>
+          </tr>
+          <tr>
+            <th class="th-col">Screen To Body Percentage</th>
+            <td> 123456678 </td>
+            <td> 123456789 </td>
+            <td> 1234567890 </td>
+          </tr>
+        </table>
+      </div>
+
+      <button class="accordion">Body Dimension</button>
+      <div class="panel">
+        <table  class="acc-table">
+          <tr>
+            <th class="th-col">Dimension</th>
+            <td> 123456678 </td>
+            <td> 123456789 </td>
+            <td> 1234567890 </td>
+          </tr>
+          <tr>
+            <th class="th-col">weight</th>
+            <td> 123456678 </td>
+            <td> 123456789 </td>
+            <td> 1234567890 </td>
+          </tr>
+        </table>
+
+
+      </div>
+
+      <button class="accordion">Camera</button>
+      <div class="panel">
+        <table  class="acc-table">
+          <tr>
+            <th class="th-col">Rear Camera</th>
+            <td> 123456678 </td>
+            <td> 123456789 </td>
+            <td> 1234567890 </td>
+          </tr>
+          <tr>
+            <th class="th-col">Rear Camera features</th>
+            <td> 123456678 </td>
+            <td> 123456789 </td>
+            <td> 1234567890 </td>
+          </tr>
+          <tr>
+            <th class="th-col">Selfie Camera</th>
+            <td> 123456678 </td>
+            <td> 123456789 </td>
+            <td> 1234567890 </td>
+          </tr>
+          <tr>
+            <th class="th-col">Selfie Camera features</th>
+            <td> 123456678 </td>
+            <td> 123456789 </td>
+            <td> 1234567890 </td>
+          </tr>
+        </table>
+
+      </div>
+
+      <button class="accordion">Sensors</button>
+      <div class="panel">
+
+      </div>
+
+      <button class="accordion">OS</button>
+      <div class="panel">
+
+      </div>
+
+      <button class="accordion">Warranty</button>
+      <div class="panel">
+
+      </div>
+
+      <button class="accordion">Shopping</button>
+      <div class="panel">
+
+      </div>
+
+
 
      <footer class="footer mt-auto py-3">
        <div class="container">
@@ -80,6 +236,22 @@
          </div>
        </div>
      </footer>
+     <script>
+     var acc = document.getElementsByClassName('accordion');
+     var i;
+     for(i = 0; i < acc.length; i++){
+       acc[i].addEventListener("click" , function () {
+         this.classList.toggle("active");
+         var panel = this.nextElementSibling;
+         if(panel.style.maxHeight){
+           panel.style.maxHeight =  null;
+         }else {
+           panel.style.maxHeight = panel.scrollHeight + "px";
+         }
+
+       });
+     }
+     </script>
      <script src="wow.min.js"></script>
      <script>
        new WOW().init();
