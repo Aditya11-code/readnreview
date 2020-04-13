@@ -2,14 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Compare</title>
+    <title>Phone-Compare</title>
       <link rel="icon" href="favicon-black.ico">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <script src="https://kit.fontawesome.com/2c263db564.js" crossorigin="anonymous"></script>
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-      <link rel="stylesheet" href="compare.css">
+      <link rel="stylesheet" href="gadget-compare.css">
       <link rel="stylesheet" href="wowanimate.css">
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -68,32 +68,38 @@
      </div>
 
      <div class="search-box-1" id="search-box-1">
-       <input class="search-text" type="text" name="" placeholder="Type To Search">
+       <input class="search-text" type="text" placeholder="Search">
        <a href="#" class="search-button">
          <i class="fas fa-search"></i>
        </a>
      </div>
 
      <div class="search-box-2" id="search-box-2">
-       <input class="search-text" type="text" name="" placeholder="Type To Search">
+       <input class="search-text" type="text" placeholder="Search">
        <a href="#" class="search-button">
          <i class="fas fa-search"></i>
        </a>
      </div>
 
      <div class="search-box-3" id="search-box-3">
-       <input class="search-text" type="text" name="" placeholder="Type To Search">
+       <input class="search-text" type="text"placeholder="Search">
        <a href="#" class="search-button">
          <i class="fas fa-search"></i>
        </a>
      </div>
-     <div class="table-search-container">
-       <table>
+     <div class="product-image">
+       <ul class="compare-img">
+         <li><img src="111.png" class="product-pic" alt=""></li>
+         <li><img src="111.png" class="product-pic" alt=""></li>
+         <li><img src="111.png" class="product-pic" alt=""></li>
+       </ul>
+     </div>
+     <!-- <div class="table-search-container">
+       <table border="1">
          <tr>
-           <th>Smartphone Name</th>
-           <th id="search-box-1">Smartphone Name 1</th>
-           <th id="search-box-2"> Smartphone Name 2</th>
-           <th id="search-box-3"> Smartphone Name 3</th>
+           <th id="search-box-1"><img class="mobile-pic" src="111.png"> </th>
+           <th id="search-box-2"><img class="mobile-pic" src="111.png"></th>
+           <th id="search-box-3"><img class="mobile-pic" src="111.png"></th>
          </tr>
          <tr>
            <th>Price</th>
@@ -102,51 +108,51 @@
            <th>Amazon - ***** <br> flipkart-*****</th>
          </tr>
        </table>
-      </div>
-      <button class="accordion">Display</button>
+      </div> -->
+      <button class="accordion acc-first">Display</button>
       <div class="panel">
         <table  class="acc-table">
-          <tr>
+          <tr class="white">
             <th class="th-col">Screen size</th>
-            <td> 123456678 </td>
-            <td> 123456789 </td>
-            <td> 1234567890 </td>
+            <td class="td-col s-m-f"> 123456678 </td>
+            <td class="td-col s-m-f"> 123456789 </td>
+            <td class="s-m-f"> 1234567890 </td>
           </tr>
-          <tr>
+          <tr class="grey">
             <th class="th-col">Resolution</th>
-            <td> 123456678 </td>
-            <td> 123456789 </td>
-            <td> 1234567890 </td>
+            <td class="td-col s-m-f"> 123456678 </td>
+            <td class="td-col s-m-f"> 123456789 </td>
+            <td class="s-m-f"> 1234567890 </td>
           </tr>
-          <tr>
+          <tr class="white">
             <th class="th-col">Display Type</th>
-            <td> 123456678 </td>
-            <td> 123456789 </td>
-            <td> 1234567890 </td>
+            <td class="td-col s-m-f"> 123456678 </td>
+            <td class="td-col s-m-f"> 123456789 </td>
+            <td class="s-m-f"> 1234567890 </td>
           </tr>
-          <tr>
+          <tr class="grey">
             <th class="th-col">Aspect Ratio</th>
-            <td> 123456678 </td>
-            <td> 123456789 </td>
-            <td> 1234567890 </td>
+            <td class="td-col s-m-f"> 123456678 </td>
+            <td class="td-col s-m-f"> 123456789 </td>
+            <td class="s-m-f"> 1234567890 </td>
           </tr>
-          <tr>
+          <tr class="white">
             <th class="th-col">Touch-Screen Type</th>
-            <td> 123456678 </td>
-            <td> 123456789 </td>
-            <td> 1234567890 </td>
+            <td class="td-col s-m-f"> 123456678 </td>
+            <td class="td-col s-m-f"> 123456789 </td>
+            <td class="s-m-f"> 1234567890 </td>
           </tr>
-          <tr>
+          <tr class="grey">
             <th class="th-col">Protection</th>
-            <td> 123456678 </td>
-            <td> 123456789 </td>
-            <td> 1234567890 </td>
+            <td class="td-col s-m-f"> 123456678 </td>
+            <td class="td-col s-m-f"> 123456789 </td>
+            <td class="s-m-f"> 1234567890 </td>
           </tr>
-          <tr>
+          <tr class="white">
             <th class="th-col">Screen To Body Percentage</th>
-            <td> 123456678 </td>
-            <td> 123456789 </td>
-            <td> 1234567890 </td>
+            <td class="td-col s-m-f"> 123456678 </td>
+            <td class="td-col s-m-f"> 123456789 </td>
+            <td class="s-m-f"> 1234567890 </td>
           </tr>
         </table>
       </div>
@@ -154,17 +160,17 @@
       <button class="accordion">Body Dimension</button>
       <div class="panel">
         <table  class="acc-table">
-          <tr>
+          <tr class="white">
             <th class="th-col">Dimension</th>
-            <td> 123456678 </td>
-            <td> 123456789 </td>
-            <td> 1234567890 </td>
+            <td class="td-col s-m-f"> 123456678 </td>
+            <td class="td-col s-m-f"> 123456789 </td>
+            <td class="s-m-f"> 1234567890 </td>
           </tr>
-          <tr>
+          <tr class="grey">
             <th class="th-col">weight</th>
-            <td> 123456678 </td>
-            <td> 123456789 </td>
-            <td> 1234567890 </td>
+            <td class="td-col s-m-f"> 123456678 </td>
+            <td class="td-col s-m-f"> 123456789 </td>
+            <td class="s-m-f"> 1234567890 </td>
           </tr>
         </table>
 
@@ -174,29 +180,29 @@
       <button class="accordion">Camera</button>
       <div class="panel">
         <table  class="acc-table">
-          <tr>
+          <tr class="white">
             <th class="th-col">Rear Camera</th>
-            <td> 123456678 </td>
-            <td> 123456789 </td>
-            <td> 1234567890 </td>
+            <td class="td-col s-m-f"> 123456678 </td>
+            <td class="td-col s-m-f"> 123456789 </td>
+            <td class="s-m-f"> 1234567890 </td>
           </tr>
-          <tr>
+          <tr class="grey">
             <th class="th-col">Rear Camera features</th>
-            <td> 123456678 </td>
-            <td> 123456789 </td>
-            <td> 1234567890 </td>
+            <td class="td-col s-m-f"> 123456678 </td>
+            <td class="td-col s-m-f"> 123456789 </td>
+            <td class="s-m-f"> 1234567890 </td>
           </tr>
-          <tr>
+          <tr class="white">
             <th class="th-col">Selfie Camera</th>
-            <td> 123456678 </td>
-            <td> 123456789 </td>
-            <td> 1234567890 </td>
+            <td class="td-col s-m-f"> 123456678 </td>
+            <td class="td-col s-m-f"> 123456789 </td>
+            <td class="s-m-f"> 1234567890 </td>
           </tr>
-          <tr>
+          <tr class="grey">
             <th class="th-col">Selfie Camera features</th>
-            <td> 123456678 </td>
-            <td> 123456789 </td>
-            <td> 1234567890 </td>
+            <td class="td-col s-m-f"> 123456678 </td>
+            <td class="td-col s-m-f"> 123456789 </td>
+            <td class="s-m-f"> 1234567890 </td>
           </tr>
         </table>
 
@@ -251,7 +257,7 @@
 
        });
      }
-     </script>
+    </script>
      <script src="wow.min.js"></script>
      <script>
        new WOW().init();
