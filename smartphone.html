@@ -67,7 +67,7 @@
        </div>
      </div>
 
-     <main class="main-container">
+     <main class="main-container wow bounceInUp">
        <div class="image-section">
          <img data-image="black" src="images/black.png" alt="">
          <img data-image="blue" src="images/blue.png" alt="">
@@ -79,11 +79,10 @@
            <h1>Phone-name</h1>
            <p> A short Paragraph about the same gadget
               A short Paragraph about the same gadget
-              A short Paragraph about the same gadget
-              A short Paragraph about the same gadget
-              A short Paragraph about the same gadget
-            A short Paragraph about the same gadget
-            A short Paragraph about the same gadget</p>
+              A short Paragraph about the same gadget</p>
+            <a href="#">  <button type="button" class="btn btn-outline-primary">Specification</button></a>
+            <a href="#spec-table-container"> <button type="button" class="btn btn-outline-primary">Read/Write Review</button></a>
+
          </div>
          <div class="product-configuration">
            <div class="product-color">
@@ -103,279 +102,299 @@
                  <label for="black"><span></span></label>
                </div>
              </div>
+             <div class="variants">
+               <span>Variants of device</span>
 
-           </div>
-           <div class="variants">
-             <span>Variants of device</span>
-
-             <div class="choose-variant">
-               <button>Ist variant</button>
-               <button>IInd variant</button>
+               <div class="choose-variant">
+                 <button></button>
+                 <button></button>
+               </div>
              </div>
+
            </div>
+
          </div>
        </div>
      </main>
-     <div class="spec">
-       <table border="1">
-        <span>Highlights</span>
+     <div class="spec-table-container" id="spec-table-container">
+       <table border="1" class="wow bounceInUp">
+        <span class="spec-heading">Highlights</span>
+        <span class="material-icons">highlight</span>
+        <hr>
          <tr>
-           <th>Display Size</th>
+           <td>Display Size</td>
+           <td> cm , m , inch</td>
+         </tr>
+         <tr>
+           <td>RAM</td>
            <td>-------</td>
          </tr>
          <tr>
-           <th>RAM</th>
-           <td>-------</td>
-         </tr>
-         <tr>
-           <th>Internal Storage</th>
+           <td>Internal Storage</td>
            <td>--------</td>
          </tr>
          <tr>
-           <th>Processor</th>
+           <td>Processor</td>
            <td>--------</td>
          </tr>
          <tr>
-           <th>Rear Camera</th>
+           <td>Rear Camera</td>
            <td>--------</td>
          </tr>
          <tr>
-           <th>OS</th>
+           <td>OS</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Battery Storage</th>
+           <td>Battery Storage</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Price INR /$</th>
+           <td>Price INR /$</td>
            <td></td>
          </tr>
          <tr>
-           <th>Launch Date</th>
+           <td>Launch Date</td>
            <td></td>
          </tr>
        </table>
-       <table border="1">
-         <span>Display</span><span class="material-icons">mobile_screen_share</span>
+       <table border="1" class="wow bounceInUp">
+         <span class="spec-heading">Display</span>
+         <span class="material-icons">mobile_screen_share</span>
+         <hr>
          <tr>
-           <th>Screen Size</th>
+           <td>Screen Size</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Resolution</th>
+           <td>Resolution</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Display Type </th>
+           <td>Display Type </td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Display Protection</th>
+           <td>Display Protection</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Touch Screen</th>
+           <td>Touch Screen</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Pixel Density</th>
-           <td>---------</td>
-         </tr>
-       </table>
-       <table border="1">
-         <span>Camera</span><span class="material-icons">camera_alt</span>
-         <tr>
-           <th>Rear Camera</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>Front Camera</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>Features </th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>Image Resolution</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>Video Recording Resolution</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>Aperture</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>Flash</th>
+           <td>Pixel Density</td>
            <td>---------</td>
          </tr>
        </table>
-       <table border="1">
-         <span>Physical Feature </span><span class="material-icons">developer_mode</span>
+       <table border="1" class="wow bounceInUp">
+         <span class="spec-heading">Camera</span>
+         <span class="material-icons">camera_alt</span>
+         <hr>
          <tr>
-           <th>Width</th>
+           <td>Rear Camera</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Height</th>
+           <td>Front Camera</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Thickness</th>
+           <td>Features </td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Weight</th>
+           <td>Image Resolution</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Body Type </th>
+           <td>Video Recording Resolution</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Colours</th>
-           <td>---------</td>
-         </tr>
-       </table>
-       <table border="1">
-         <span>Hardware</span><span class="material-icons">developer_board</span>
-         <tr>
-           <th>Processor</th>
+           <td>Aperture</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Chipset</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>Graphics</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>RAM</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>Internal Storage</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>Storage Expandable</th>
+           <td>Flash</td>
            <td>---------</td>
          </tr>
        </table>
-       <table border="1">
-         <span>Sounds</span><span class="material-icons">volume_up</span>
+       <table border="1" class="wow bounceInUp">
+         <span class="spec-heading">Physical Feature </span>
+         <span class="material-icons">developer_mode</span>
+         <hr>
          <tr>
-           <th>Speaker Feature</th>
+           <td>Widtd</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Audio Jack</th>
+           <td>Height</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Loudspeaker</th>
-           <td>---------</td>
-         </tr>
-       </table>
-       <table border="1">
-         <span>Sensors</span><span class="material-icons">filter_tilt_shift</span>
-         <tr>
-           <th>Fingerprint</th>
+           <td>tdickness</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Face Unlock</th>
+           <td>Weight</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Compass/Magnetometer</th>
+           <td>Body Type </td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Proximity Sensor</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>Accelerometer</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>Ambient Light Display</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>Gyroscope</th>
+           <td>Colours</td>
            <td>---------</td>
          </tr>
        </table>
-       <table border="1">
-         <span>Batttery</span><span class="material-icons">battery_charging_full</span>
+       <table border="1" class="wow bounceInUp">
+         <span class="spec-heading">Hardware</span>
+         <span class="material-icons">developer_board</span>
+         <hr>
          <tr>
-           <th>Capacity</th>
+           <td>Processor</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Fast Charging</th>
+           <td>Chipset</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Removable</th>
+           <td>Graphics</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Type</th>
-           <td>---------</td>
-         </tr>
-       </table>
-       <table border="1">
-         <span>Connectivity</span><span class="material-icons">settings_input_antenna</span>
-         <tr>
-           <th>GPS</th>
+           <td>RAM</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Bluetooth</th>
+           <td>Internal Storage</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Wi-Fi</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>Network</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>USB</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>NFC</th>
-           <td>---------</td>
-         </tr>
-         <tr>
-           <th>SIM Config</th>
+           <td>Storage Expandable</td>
            <td>---------</td>
          </tr>
        </table>
-       <table border="1">
-         <span>Miscellaneous</span>
+       <table border="1" class="wow bounceInUp">
+         <span class="spec-heading">Sounds</span>
+         <span class="material-icons">volume_up</span>
+         <hr>
          <tr>
-           <th>Warranty</th>
+           <td>Speaker Feature</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Content in the box</th>
+           <td>Audio Jack</td>
            <td>---------</td>
          </tr>
          <tr>
-           <th>Price comparison</th>
+           <td>Loudspeaker</td>
+           <td>---------</td>
+         </tr>
+       </table>
+       <table border="1" class="wow bounceInUp">
+         <span class="spec-heading">Sensors</span>
+         <span class="material-icons">filter_tilt_shift</span>
+         <hr>
+         <tr>
+           <td>Fingerprint</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Face Unlock</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Compass/Magnetometer</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Proximity Sensor</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Accelerometer</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Ambient Light Display</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Gyroscope</td>
+           <td>---------</td>
+         </tr>
+       </table>
+       <table border="1"  class="wow bounceInUp">
+         <span class="spec-heading">Batttery</span>
+         <span class="material-icons">battery_charging_full</span>
+         <hr>
+         <tr>
+           <td>Capacity</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Fast Charging</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Removable</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Type</td>
+           <td>---------</td>
+         </tr>
+       </table>
+       <table border="1" class="wow bounceInUp">
+         <span class="spec-heading">Connectivity</span>
+         <span class="material-icons">settings_input_antenna</span>
+         <hr>
+         <tr>
+           <td>GPS</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Bluetootd</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Wi-Fi</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Network</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>USB</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>NFC</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>SIM Config</td>
+           <td>---------</td>
+         </tr>
+       </table>
+       <table border="1" class="wow bounceInUp">
+         <span class="spec-heading">Miscellaneous</span>
+         <hr>
+         <tr>
+           <td>Warranty</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Content in tde box</td>
+           <td>---------</td>
+         </tr>
+         <tr>
+           <td>Price comparison</td>
            <td>---------</td>
          </tr>
 
@@ -384,7 +403,7 @@
 
 
 
-     <footer class="footer mt-auto py-3">
+     <footer class="footer mt-auto py-3 class="wow bounceInUp"">
        <div class="container">
          <hr>
          <div class="footer-social-icons">
