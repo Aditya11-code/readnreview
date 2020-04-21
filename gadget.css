@@ -117,6 +117,60 @@
   color: #3498db;
   transition: transform 0.3s ease-in;
 }
+.gadget-card > button{
+  background: none;
+  color: none;
+  border: none;
+  outline: none;
+}
+.modal-body{
+  padding: 0;
+  height: 280px;
+  display: inline;
+}
+.modal-img{
+  height: 300px;
+  width: 33%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.sp{
+  background-image: url(images/211.png);
+}
+.hp{
+  background-image: url(images/hp.png);
+}
+.speaker{
+  background-image: url(images/11.png);
+}
+.laptop{
+  background-image: url(images/lap.jpg);
+}
+.tab{
+  background-image: url(images/tab.jpg);
+}
+.sm-watch{
+  background-image: url(smw.png);
+}
+.search-bar{
+  margin-top: -260px;
+  margin-right: 30px;
+  float: right;
+}
+.search-input{
+  border: 1px solid #86939E;
+  font-size: 15px;
+  line-height: 30px;
+  border-radius: 40px;
+  outline: none;
+  padding: 2px 10px 2px 10px;
+}
+.fa-search{
+  padding-left:8px;
+  font-size: 23px;
+}
 .heading{
   font-weight: 700;
   margin-top: 5%;
@@ -405,6 +459,24 @@
   .heading{
     margin:20px 0px ;
     text-align: center;
+  }
+  .modal-img{
+    margin: 0 30% 0 30%;
+  }
+  .search-bar{
+    float: none;
+    margin-top: -100px;
+  }
+  .search-input{
+    width: 250px;
+    margin: 2% 25% 2% 25%;
+  }
+  .fa-search{
+    padding: 0;
+    margin-top: -36px;
+    font-size: 20px;
+    margin-right: 40px;
+    float: right;
   }
   .gadget-card{
     margin: 0 20% 8%;
