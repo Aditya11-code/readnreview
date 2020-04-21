@@ -143,7 +143,7 @@
   background-image: url(images/hp.png);
 }
 .speaker{
-  background-image: url(images/11.png);
+  background-image: url(images/spkr.png);
 }
 .laptop{
   background-image: url(images/lap.jpg);
@@ -469,13 +469,13 @@
   }
   .search-input{
     width: 250px;
-    margin: 2% 25% 2% 25%;
+    margin: 2% 25% 2% 10%;
   }
   .fa-search{
     padding: 0;
     margin-top: -36px;
     font-size: 20px;
-    margin-right: 50px;
+    margin-right: 20px;
     float: right;
   }
   .gadget-card{
@@ -522,6 +522,12 @@
   .product-icon{
       padding: 20px 19px 0;
     font-size: 30px;
+  }
+  .search-input{
+    width: 200px;
+  }
+  .fa-search{
+    margin-right: 1%;
   }
   .stylish-social-icons{
     height: 35px;
