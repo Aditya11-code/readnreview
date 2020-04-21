@@ -152,7 +152,7 @@
   background-image: url(images/tab.jpg);
 }
 .sm-watch{
-  background-image: url(images/smw.png);
+  background-image: url(smw.png);
 }
 .search-bar{
   margin-top: -260px;
@@ -461,7 +461,7 @@
     text-align: center;
   }
   .modal-img{
-    margin: 0 30% 0 30%;
+    margin: 3% 20% 0 35%;
   }
   .search-bar{
     float: none;
@@ -475,7 +475,7 @@
     padding: 0;
     margin-top: -36px;
     font-size: 20px;
-    margin-right: 40px;
+    margin-right: 50px;
     float: right;
   }
   .gadget-card{
