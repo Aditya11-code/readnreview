@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Compare</title>
+    <title>Smartphone</title>
       <link rel="icon" href="favicon-black.ico">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <script src="https://kit.fontawesome.com/2c263db564.js" crossorigin="anonymous"></script>
@@ -80,8 +80,12 @@
            <p> A short Paragraph about the same gadget
               A short Paragraph about the same gadget
               A short Paragraph about the same gadget</p>
-            <a href="#">  <button type="button" class="btn btn-outline-primary">Specification</button></a>
-            <a href="#spec-table-container"> <button type="button" class="btn btn-outline-primary">Read/Write Review</button></a>
+            <a href="#spec-table-container">
+              <button type="button" class="btn btn-outline-primary descrip-btn">Specification<i class="fas fa-clipboard-list butt-icons"></i></button>
+            </a>
+            <a href="#rr">
+               <button type="button" class="btn btn-outline-primary descrip-btn">Read/Write Review<i class="fas fa-user-edit butt-icons"></i></button>
+            </a>
 
          </div>
          <div class="product-configuration">
@@ -103,11 +107,21 @@
                </div>
              </div>
              <div class="variants">
-               <span>Variants of device</span>
+               <span class="var-heading">Variants of device</span>
 
                <div class="choose-variant">
                  <button></button>
                  <button></button>
+               </div>
+
+               <div class="sharing-option">
+                 <span class="var-heading">Share this<i class="fas fa-share-alt" style="padding-left:5px;"></i></span>
+                 <span class="sharing-medium">
+                   <button type="button" class="btn btn-outline-primary sharing share-fb"data-toggle="tooltip" data-placement="top" title="FB-Share"><i class="fab fa-facebook-f "></i></button>
+                   <button type="button" class="btn btn-outline-primary sharing share-tweet"data-toggle="tooltip" data-placement="top" title="Tweet"><i class="fab fa-twitter share-tweet"></i></button>
+                   <button type="button" class="btn btn-outline-primary sharing share-lcopy"data-toggle="tooltip" data-placement="top" title="Copy Link"><i class="far fa-copy"></i></button>
+
+                 </span>
                </div>
              </div>
 
@@ -119,7 +133,7 @@
      <div class="spec-table-container" id="spec-table-container">
        <table border="1" class="wow bounceInUp">
         <span class="spec-heading">Highlights</span>
-        <span class="material-icons">highlight</span>
+        <i class="far fa-hand-point-down spec-icons"></i>
         <hr>
          <tr>
            <td>Display Size</td>
@@ -159,8 +173,8 @@
          </tr>
        </table>
        <table border="1" class="wow bounceInUp">
-         <span class="spec-heading">Display</span>
-         <span class="material-icons">mobile_screen_share</span>
+         <span class="spec-heading" >Display</span>
+         <i class="fas fa-tv spec-icons"></i>
          <hr>
          <tr>
            <td>Screen Size</td>
@@ -189,7 +203,7 @@
        </table>
        <table border="1" class="wow bounceInUp">
          <span class="spec-heading">Camera</span>
-         <span class="material-icons">camera_alt</span>
+         <i class="fas fa-camera spec-icons"></i>
          <hr>
          <tr>
            <td>Rear Camera</td>
@@ -222,7 +236,7 @@
        </table>
        <table border="1" class="wow bounceInUp">
          <span class="spec-heading">Physical Feature </span>
-         <span class="material-icons">developer_mode</span>
+         <i class="fas fa-sliders-h spec-icons"></i>
          <hr>
          <tr>
            <td>Widtd</td>
@@ -251,7 +265,7 @@
        </table>
        <table border="1" class="wow bounceInUp">
          <span class="spec-heading">Hardware</span>
-         <span class="material-icons">developer_board</span>
+         <i class="fas fa-microchip spec-icons"></i>
          <hr>
          <tr>
            <td>Processor</td>
@@ -280,7 +294,7 @@
        </table>
        <table border="1" class="wow bounceInUp">
          <span class="spec-heading">Sounds</span>
-         <span class="material-icons">volume_up</span>
+         <i class="fas fa-volume-up spec-icons"></i>
          <hr>
          <tr>
            <td>Speaker Feature</td>
@@ -297,7 +311,7 @@
        </table>
        <table border="1" class="wow bounceInUp">
          <span class="spec-heading">Sensors</span>
-         <span class="material-icons">filter_tilt_shift</span>
+         <i class="fas fa-circle-notch spec-icons"></i>
          <hr>
          <tr>
            <td>Fingerprint</td>
@@ -330,7 +344,7 @@
        </table>
        <table border="1"  class="wow bounceInUp">
          <span class="spec-heading">Batttery</span>
-         <span class="material-icons">battery_charging_full</span>
+         <i class="fas fa-battery-three-quarters spec-icons"></i>
          <hr>
          <tr>
            <td>Capacity</td>
@@ -351,7 +365,7 @@
        </table>
        <table border="1" class="wow bounceInUp">
          <span class="spec-heading">Connectivity</span>
-         <span class="material-icons">settings_input_antenna</span>
+         <i class="fas fa-broadcast-tower spec-icons"></i>
          <hr>
          <tr>
            <td>GPS</td>
@@ -384,6 +398,7 @@
        </table>
        <table border="1" class="wow bounceInUp">
          <span class="spec-heading">Miscellaneous</span>
+         <i class="fas fa-random spec-icons"></i>
          <hr>
          <tr>
            <td>Warranty</td>
