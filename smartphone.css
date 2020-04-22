@@ -167,12 +167,18 @@
   color: #86939E;
   line-height: 28px;
 }
-.btn-outline-primary{
+.descrip-btn{
+  font-weight: 500;
+  letter-spacing: 1px;
   margin-left:10px;
   margin-bottom: 10px;
 }
-.variants span {
-  font-size: 14px;
+.butt-icons{
+  padding-left: 10px;
+  font-size: 19px;
+}
+.var-heading{
+  font-size: 18px;
   font-weight: 400;
   color: #86939E;
   margin-bottom: 20px;
@@ -243,6 +249,27 @@
   border: 2px solid #86939E;
   outline: none;
 }
+.sharing-medium{
+  margin-left: 40px;
+}
+.sharing{
+  font-size: 28px;
+  border-radius: 50%;
+  border: none;
+  color: grey;
+}
+.share-fb:hover{
+  color: #3b5998;
+}
+.share-tweet:hover{
+  color: #00acee;
+}
+.share-lcopy:hover{
+  color: black;
+}
+.sharing:hover{
+  background-color: #f8f8f8;
+}
 .spec-table-container{
   margin: 0 10% 5% 10%;
   margin-top: 50px;
@@ -250,10 +277,6 @@
   text-align: center;
   background-color: #f1f1f1;
   padding: 30px;
-}
-.spec-heading{
-  font-size: 23px;
-  letter-spacing: 1px;
 }
 
 .spec-table-container > table{
@@ -270,6 +293,13 @@ td{
   letter-spacing: 1px;
   color: #86939E;
   width: 470px;
+}
+.spec-heading{
+  font-size: 26px;
+}
+.spec-icons{
+  font-size: 23px;
+  padding: 0 10px 0 10px;
 }
 
 .footer > .container{
@@ -386,9 +416,9 @@ td{
   }
 
   .image-section img {
-    width: 300px;
+    margin-top: 30px;
+    width: 350px;
     right: 0;
-    top: -65px;
     left: initial;
   }
   .stylish-social-icons{
@@ -456,17 +486,6 @@ td{
   .logo-menu{
     margin: 30px 60px 0;
   }
-  .fa-bars{
-    font-size: 21px;
-  }
-}
-@media only screen and (max-width:500px){
-  .logo-menu{
-    margin:0px 20px 0px;
-  }
-  .fa-bars{
-    font-size: 25px;
-  }
   .main-container{
   flex-direction:column;
 }
@@ -475,9 +494,10 @@ td{
     top: -85px;
     left:0 ;
     margin-left: 9%;
+    margin-top: 0;
   }
   .description-column{
-    margin-top: 170px;
+    margin-top: 180px;
   }
   .spec-table-container{
     margin: 0 1% 5% 1%;
@@ -490,12 +510,25 @@ td{
 
   .spec-table-container > table{
     margin: 0% 0% 4% 0%;
-    line-height: 40px;
   }
   td{
     font-size: 15px;
     letter-spacing: .5px;
-    width: 350px;
+  }
+  .spec-icons{
+    font-size: 19px;
+  }
+
+  .fa-bars{
+    font-size: 21px;
+  }
+}
+@media only screen and (max-width:500px){
+  .logo-menu{
+    margin:0px 20px 0px;
+  }
+  .fa-bars{
+    font-size: 25px;
   }
   .last-content{
     font-size: 14px;
@@ -511,6 +544,15 @@ td{
   }
   .brand-logo{
     height: 52px;
+  }
+  .image-section{
+    margin-left: 9.5%;
+  }
+  .spec-heading{
+    font-size: 20px;
+  }
+  td{
+    font-size: 12.5px;
   }
   .stylish-social-icons{
     height: 35px;
