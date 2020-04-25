@@ -723,6 +723,9 @@ td{
   .product-description > h1{
     font-size: 40px;
   }
+  .more-img-butt{
+    height:60px; 
+  }
   .last-content{
     font-size: 14px;
   }
